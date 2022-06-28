@@ -26,6 +26,8 @@ nav {
 	margin-top: -16px;
 	height: 45px;
 	padding-bottom: 2PX;
+	margin-left: auto;
+	margin-right: auto;
 }
 .ul_0_li  {
 	display: inline-block;
