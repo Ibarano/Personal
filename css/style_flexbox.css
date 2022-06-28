@@ -1,0 +1,116 @@
+.flex-container-header {
+	display: flex;
+	background-color: hsla(0,5%,23%,1.00);
+	width: 100%;
+	height: 224px;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 28px;
+}
+.flex-container-nav {
+	width: 100%;
+	display: flex;
+	background-color: hsla(0,5%,23%,0.25);
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	height: 75px;
+}
+.flex-container-nav div a {
+	color: hsla(0,5%,23%,1.00);
+	text-decoration: none;
+	font-weight: lighter;
+	font-family: "Montserrat Medium";
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: thin solid hsla(0,5%,23%,0.85);
+}
+.flex-container-nav div a:hover {
+	color: hsla(0,5%,23%,0.25);
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	border: 10px double hsla(0,5%,23%,0.25);
+	font-size: medium;
+	font-family: "Montserrat Medium";
+}
+.flex-container-nav div {
+	width: 323px;
+	height: auto;
+	margin-left: 0px;
+	text-align: center;
+}
+.flex-container-main {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: column;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	flex-direction: row;
+	border-width: medium;
+	background-image: -webkit-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(61,55,55,0.20) 54.73%,rgba(255,255,255,1.00) 100%);
+	background-image: -moz-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(61,55,55,0.20) 54.73%,rgba(255,255,255,1.00) 100%);
+	background-image: -o-repeating-linear-gradient(270deg,rgba(255,255,255,1.00) 0%,rgba(61,55,55,0.20) 54.73%,rgba(255,255,255,1.00) 100%);
+	background-image: repeating-linear-gradient(180deg,rgba(255,255,255,1.00) 0%,rgba(61,55,55,0.20) 54.73%,rgba(255,255,255,1.00) 100%);
+}
+.flex-container-main section {
+	margin-top: 9px;
+	margin-right: 9px;
+	margin-left: 9px;
+	margin-bottom: 9px;
+	padding: 30px;
+	width: 22%;
+	color: hsla(0,0%,100%,1.00);
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	background-color: hsla(0,5%,23%,0.25);
+}
+.flex-container-main section h2 {
+	margin-top: -14px;
+	font-family: "Montserrat Medium";
+	font-style: normal;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	font-size: 22px;
+	text-align: center;
+	font-weight: lighter;
+}
+.flex-container-footer {
+	display: flex;
+	width: 100%;
+	height: 43px;
+	background-color: #FECEA8;
+	justify-content: center;
+	align-items: center;
+}
+.flex-container-footer h4 {
+	width: 30%;
+	color: #317459;
+	text-align: center;
+	height: auto;
+}
+.animate__delay-3s {
+}
+.animate__repeat-3 {
+}
+.animate__slow {
+}
+.imagen_1 {
+	width: 100%;
+	height: auto;
+}
+.animate__delay-5s {
+}
+.animate__repeat-2 {
+}
+.animate__delay-2s {
+}
